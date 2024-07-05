@@ -1,0 +1,184 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.medicare"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\kuchi\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.medicare.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\kuchi\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\kuchi\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.medicare.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\kuchi\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\kuchi\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:5:5-72:19
+18        android:allowBackup="true"
+18-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\kuchi\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:8:9-54
+24        android:icon="@drawable/back_home"
+24-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:10:9-41
+26        android:roundIcon="@drawable/back_home"
+26-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:11:9-48
+27        android:supportsRtl="true"
+27-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:12:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.MediCare" >
+29-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:13:9-46
+30        <activity
+30-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:15:9-17:40
+31            android:name="com.example.medicare.ProfileActivity"
+31-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:16:13-44
+32            android:exported="false" />
+32-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:17:13-37
+33        <activity
+33-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:18:9-20:40
+34            android:name="com.example.medicare.settingsActivity"
+34-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:19:13-45
+35            android:exported="false" />
+35-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:20:13-37
+36        <activity
+36-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:21:9-23:40
+37            android:name="com.example.medicare.upi"
+37-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:22:13-32
+38            android:exported="false" />
+38-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:23:13-37
+39        <activity
+39-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:24:9-26:40
+40            android:name="com.example.medicare.payment"
+40-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:25:13-36
+41            android:exported="false" />
+41-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:26:13-37
+42        <activity
+42-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:27:9-29:40
+43            android:name="com.example.medicare.MainActivity"
+43-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:28:13-41
+44            android:exported="false" />
+44-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:29:13-37
+45        <activity
+45-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:30:9-32:40
+46            android:name="com.example.medicare.CartActivity"
+46-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:31:13-41
+47            android:exported="false" />
+47-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:32:13-37
+48        <activity
+48-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:33:9-35:40
+49            android:name="com.example.medicare.BuyMedicineActivity"
+49-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:34:13-48
+50            android:exported="false" />
+50-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:35:13-37
+51        <activity
+51-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:36:9-38:40
+52            android:name="com.example.medicare.EmergencyContactsActivity"
+52-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:37:13-54
+53            android:exported="false" />
+53-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:38:13-37
+54        <activity
+54-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:39:9-41:40
+55            android:name="com.example.medicare.HealthArticlesActivity"
+55-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:40:13-51
+56            android:exported="false" />
+56-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:41:13-37
+57        <activity
+57-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:42:9-44:40
+58            android:name="com.example.medicare.HealthTipsActivity"
+58-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:43:13-47
+59            android:exported="false" />
+59-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:44:13-37
+60        <activity
+60-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:45:9-47:40
+61            android:name="com.example.medicare.SymptomsCheckerActivity"
+61-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:46:13-52
+62            android:exported="false" />
+62-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:47:13-37
+63        <activity
+63-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:48:9-50:40
+64            android:name="com.example.medicare.DoctorsActivity"
+64-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:49:13-44
+65            android:exported="false" />
+65-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:50:13-37
+66        <activity
+66-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:51:9-53:40
+67            android:name="com.example.medicare.MedicalRecordsActivity"
+67-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:52:13-51
+68            android:exported="false" />
+68-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:53:13-37
+69        <activity
+69-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:54:9-56:40
+70            android:name="com.example.medicare.HomeActivity"
+70-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:55:13-41
+71            android:exported="false" />
+71-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:56:13-37
+72        <activity
+72-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:57:9-59:40
+73            android:name="com.example.medicare.AppointmentsActivity"
+73-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:58:13-49
+74            android:exported="false" />
+74-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:59:13-37
+75        <activity
+75-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:60:9-62:40
+76            android:name="com.example.medicare.signupActivity"
+76-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:61:13-43
+77            android:exported="false" />
+77-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:62:13-37
+78        <activity
+78-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:63:9-71:20
+79            android:name="com.example.medicare.loginActivity"
+79-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:64:13-42
+80            android:exported="true" >
+80-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:65:13-36
+81            <intent-filter>
+81-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:66:13-70:29
+82                <action android:name="android.intent.action.MAIN" />
+82-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:67:17-69
+82-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:67:25-66
+83
+84                <category android:name="android.intent.category.LAUNCHER" />
+84-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:69:17-77
+84-->C:\Users\kuchi\AndroidStudioProjects\MediCare\app\src\main\AndroidManifest.xml:69:27-74
+85            </intent-filter>
+86        </activity>
+87
+88        <provider
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kuchi\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+89            android:name="androidx.startup.InitializationProvider"
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kuchi\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+90            android:authorities="com.example.medicare.androidx-startup"
+90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kuchi\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+91            android:exported="false" >
+91-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kuchi\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+92            <meta-data
+92-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kuchi\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+93                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+93-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kuchi\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+94                android:value="androidx.startup" />
+94-->[androidx.emoji2:emoji2:1.2.0] C:\Users\kuchi\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+95            <meta-data
+95-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\kuchi\.gradle\caches\transforms-3\75d35fda4271de3dc184847093d1a2b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+96                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+96-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\kuchi\.gradle\caches\transforms-3\75d35fda4271de3dc184847093d1a2b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+97                android:value="androidx.startup" />
+97-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\kuchi\.gradle\caches\transforms-3\75d35fda4271de3dc184847093d1a2b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+98        </provider>
+99    </application>
+100
+101</manifest>

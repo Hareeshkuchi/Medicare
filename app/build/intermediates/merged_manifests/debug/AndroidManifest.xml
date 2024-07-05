@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.medicare"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="33" />
+
+    <permission
+        android:name="com.example.medicare.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.medicare.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/back_home"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/back_home"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.MediCare" >
+        <activity
+            android:name="com.example.medicare.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.medicare.settingsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.medicare.upi"
+            android:exported="false" />
+        <activity
+            android:name="com.example.medicare.payment"
+            android:exported="false" />
+        <activity
+            android:name="com.example.medicare.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.medicare.CartActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.medicare.BuyMedicineActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.medicare.EmergencyContactsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.medicare.HealthArticlesActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.medicare.HealthTipsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.medicare.SymptomsCheckerActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.medicare.DoctorsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.medicare.MedicalRecordsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.medicare.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.medicare.AppointmentsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.medicare.signupActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.medicare.loginActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.example.medicare.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>
